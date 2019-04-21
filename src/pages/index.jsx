@@ -429,7 +429,7 @@ class IndexPage extends React.Component {
           />
           <meta
             name="google-site-verification"
-            content="b15i3BEcJgaQWKdZ81MC9gFRwJXr_6wasb-XxKHlktk"
+            content="WPu1QQjVXWbfMuZCZ3A5IusbfDXzdco9ptYgpC16plA"
           />
           <meta
             name="keywords"

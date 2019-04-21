@@ -25,7 +25,7 @@ class ExecAppForm extends React.Component {
                     <div class="freebirdFormviewerViewHeaderTitleRow">
                         <div class="freebirdFormviewerViewHeaderTitle exportFormTitle freebirdCustomFont" dir="auto" role="heading" aria-level="1">Equithon Committee Exec Application</div>
                     </div>
-                    <div class="freebirdFormviewerViewHeaderDescription" dir="auto">Looking to help us organize Equithon 2019? You're in the right place.</div>
+                    <div class="freebirdFormviewerViewHeaderDescription" dir="auto">Looking to help us organize ambiensis 2019? You're in the right place.</div>
                     <div jsname="F0H8Yc" class="freebirdCommonViewSecurequizSecureQuizBannerContainer"></div>
                     <div class="freebirdFormviewerViewHeaderRequiredLegend" aria-hidden="true" dir="auto">* Required</div>
                 </div>

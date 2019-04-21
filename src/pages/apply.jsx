@@ -106,10 +106,10 @@ class NotFoundPage extends React.Component {
     return (
       <Container>
         <Helmet>
-          <title>Apply</title>
+          <title>Ambiensis</title>
           <meta
             name="description"
-            content="A social innovation hackathon like no other. Equithon is back for 2019."
+            content="Ambiensis is a Education Consultancy & IT Solution Provider"
           />
           <meta
             name="google-site-verification"
@@ -117,15 +117,15 @@ class NotFoundPage extends React.Component {
           />
           <meta
             name="keywords"
-            content="equithon, hackathon, event, social, innovation, equity, waterloo, university, 2019, apply, applications, organizer, exec"
+            content="collage,education, study, medical, engineer, proffesional , course university, 2019, apply, applications, organizer, exec"
           />
           <meta
             property="og:title"
-            content="Equithon Executive Applications"
+            content="Ambiensis Executive Applications"
           />
           <meta
             property="og:description"
-            content="Apply now to be a part of the 2019 committee!"
+            content="Apply now to be a part of the 2019 Ambiensis Education Fair!"
           />
           <meta
             property="og:site_name"
@@ -133,7 +133,7 @@ class NotFoundPage extends React.Component {
           />
           <meta
             property="og:image"
-            content="https://equithon.org/apply_og.jpg"
+            content="https://ambiensis.co.in/apply_og.jpg"
           />
           <link
             rel="icon"
@@ -144,9 +144,9 @@ class NotFoundPage extends React.Component {
         </Helmet>
         <LavaLampBg />
         <Text visible={this.state.mainVisible}>
-          Applications for the 2019 organizing committee have concluded. <br/> <br/>
+          Applications for the 2019 Educational Session . <br/> <br/>
           Thank you to everyone who applied - keep an eye on your inbox! <br/> <br/>
-          <Link href="/" style={{fontSize: isMobile ? "5vw" : "1em"}}>Still interested in participating? Sign up for updates!</Link>
+          <Link href="/" style={{fontSize: isMobile ? "5vw" : "1em"}}>Still interested in counseling? Sign up for updates!</Link>
         </Text>
       </Container>
     )

@@ -53,7 +53,7 @@ class NotFoundPage extends React.Component {
           <title>Whoops!</title>
           <meta
             name="description"
-            content="A social innovation hackathon like no other. Equithon is back for 2019."
+            content="ambiensis is leading educational and career counseller is back for 2019."
           />
           <meta
             name="google-site-verification"

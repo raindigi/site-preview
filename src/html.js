@@ -31,19 +31,19 @@ module.exports = class HTML extends React.Component {
           />
           <meta
             property="og:title"
-            content="Equithon"
+            content="ambiensis"
           />
           <meta
             property="og:description"
-            content="Waterloo's largest social innovation hackathon is back for 2019."
+            content="ambiensis is leading career counseller is back for 2019."
           />
           <meta
             property="og:site_name"
-            content="Equithon"
+            content="ambiensis"
           />
           <meta
             property="og:image"
-            content="https://equithon.org/og_image_main.jpg"
+            content="https://ambiensis.co.in/og_image_main.jpg"
           />
           {this.props.headComponents}
           {css}

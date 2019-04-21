@@ -445,7 +445,7 @@ class IndexPage extends React.Component {
         <LavaLampBg />
         <Container>
           <Title visible={this.state.mainVisible} subVisible={this.state.subVisible}>
-            ambiensis
+            Ambiensis
           </Title>
 
           <Logo src='/logo.png' visible={this.state.restVisible}/>

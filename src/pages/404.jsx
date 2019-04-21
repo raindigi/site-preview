@@ -61,7 +61,7 @@ class NotFoundPage extends React.Component {
           />
           <meta
             name="keywords"
-            content="equithon, hackathon, event, social, innovation, equity, waterloo, university, 2019"
+            content="ambiensis, collage,study, engineering, medical, event, social, admission, university, 2019"
           />
           <link
             rel="icon"
@@ -71,7 +71,7 @@ class NotFoundPage extends React.Component {
           />
         </Helmet>
         <LavaLampBg />
-        <Text><div style={{fontSize: "1.5em", marginBottom: "10px"}}>Error 404:</div> There's nothing here, but we admire your curiosity. <br/><br/> <a href="/">Be a part of Equithon 2019!</a></Text>
+        <Text><div style={{fontSize: "1.5em", marginBottom: "10px"}}>Error 404:</div> There's nothing here, but we admire your curiosity. <br/><br/> <a href="/">Be a part of ambiensis biggest education fair 2019!</a></Text>
       </Container>
     )
   }

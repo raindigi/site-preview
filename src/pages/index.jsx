@@ -368,7 +368,7 @@ class IndexPage extends React.Component {
       this.setState({lastInputValid: true});
 
       // send the POST request
-      fetch('https://usebasin.com/f/02d35e391829.json', {
+      fetch('https://usebasin.com/f/5144d514a21b.json', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
@@ -403,7 +403,7 @@ class IndexPage extends React.Component {
   }
 
   render() {
-    let applySrc = 'https://docs.google.com/forms/d/e/1FAIpQLSdi8hdNmfdRcgTSo_o1dvlyyk3xeO_HXqfNH4iQdepSrOhxHw/viewform?usp=sf_link';
+    let applySrc = 'https://docs.google.com/forms/d/e/1FAIpQLScmAqnoqT8j_XbQWgbQq_I8XaA2L9eRTPFcK2QJGJGm3hMtLA/viewform?usp=sf_link';
     let imgSrc = '/button_submit.svg';
     let toastMsg = null;
     let toastColor = null;

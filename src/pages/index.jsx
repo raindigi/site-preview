@@ -421,11 +421,11 @@ class IndexPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Equithon</title>
+          <title>Ambiensis</title>
           <script src="https://www.google.com/recaptcha/api.js" async defer></script>
           <meta
             name="description"
-            content="A social innovation hackathon like no other. Equithon is back for 2019."
+            content="Ambiensis is Educational Consultancy and IT Solution Provider"
           />
           <meta
             name="google-site-verification"
@@ -467,7 +467,7 @@ class IndexPage extends React.Component {
                 <ActionInputOverlay show={this.state.inputFocused} color="rgba(142, 142, 142, 0.3)" width="90%">
                   { !this.state.curInput ? "Your Email" : null }
                 </ActionInputOverlay>
-                <form name="mailing-list" id="mailingListForm" onSubmit={(e) => this.handleSubmit(e)} acceptCharset="UTF-8" action="https://usebasin.com/f/02d35e391829" method="POST" target="_blank">
+                <form name="mailing-list" id="mailingListForm" onSubmit={(e) => this.handleSubmit(e)} acceptCharset="UTF-8" action="https://usebasin.com/f/5144d514a21b" method="POST" target="_blank">
                   <ClickButton type="submit" className="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy" data-badge="inline" show={this.state.inputFocused || this.state.curInput !== ''}>
                     <ClickButtonImg src={imgSrc} />
                   </ClickButton>
@@ -482,26 +482,26 @@ class IndexPage extends React.Component {
 
             <div style={{gridArea: 'sponsor-contact', fontSize: '2.5vmin'}}>
               { isMobile ? null : <span>Interested in <b>sponsoring</b>? <br/> Exciting! Drop us an email anytime.</span> }
-              <ActionButton onClick={() => window.open('mailto:hello@equithon.org', '_self')}>
+              <ActionButton onClick={() => window.open('mailto:ambiensisedu@gmail.com', '_self')}>
                 { isMobile ? "Looking to Sponsor?" : "Connect With Us" }
               </ActionButton>
             </div>
           </ActionContainer>
 
           <SocialContainer visible={this.state.restVisible}>
-            <a href='https://www.facebook.com/UWEquithon/' target='_blank'>
+            <a href='https://www.facebook.com/ambiensis/' target='_blank'>
               <img src='/social_fb.png' />
             </a>
-            <a href='https://www.instagram.com/equithon' target='_blank'>
+            <a href='https://www.instagram.com/ambiensis' target='_blank'>
               <img src='/social_insta.png' />
             </a>
-            <a href='mailto:hello@equithon.org'>
+            <a href='mailto:ambiensisedu@gmail.com'>
               <img src='/social_email.png' />
             </a>
           </SocialContainer>
 
           <Copyright visible={this.state.restVisible}>
-            © Equithon Corp. 2018.
+            © Ambiensis Pvt Ltd 2019.
           </Copyright>
 
         </Container>

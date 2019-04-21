@@ -433,7 +433,7 @@ class IndexPage extends React.Component {
           />
           <meta
             name="keywords"
-            content="equithon, hackathon, hacker, event, social, innovation, equity, activism, waterloo, university, 2019, tech, good"
+            content="ambiensis,couselling, study, career, collage,engineering, medical, professional, course, university, 2019, tech, good"
           />
           <link
             rel="icon"
@@ -445,7 +445,7 @@ class IndexPage extends React.Component {
         <LavaLampBg />
         <Container>
           <Title visible={this.state.mainVisible} subVisible={this.state.subVisible}>
-            Equithon
+            ambiensis
           </Title>
 
           <Logo src='/logo.png' visible={this.state.restVisible}/>

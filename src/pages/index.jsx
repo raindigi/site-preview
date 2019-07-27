@@ -461,7 +461,7 @@ class IndexPage extends React.Component {
                 lastSubmitted={this.state.lastInputValid}
                 onAnimationEnd={() => this.setState({ lastInputShake: false })}
                 className={this.state.lastInputShake ? 'shake' : null}>
-                <ActionInputOverlay show={!this.state.inputFocused} color="#895fd2" width="100%">
+                <ActionInputOverlay show={!this.state.inputFocused} color="#895fd2" width="100%" height="50px">
                   { !this.state.curInput ? (isMobile ? "Sign Up For Updates" : "Keep Me Posted") : null }
                 </ActionInputOverlay>
                 <ActionInputOverlay show={this.state.inputFocused} color="rgba(142, 142, 142, 0.3)" width="100%">

@@ -23,9 +23,9 @@ class ExecAppForm extends React.Component {
             <div class="freebirdFormviewerViewNoPadding">
                 <div class="freebirdFormviewerViewHeaderHeader">
                     <div class="freebirdFormviewerViewHeaderTitleRow">
-                        <div class="freebirdFormviewerViewHeaderTitle exportFormTitle freebirdCustomFont" dir="auto" role="heading" aria-level="1">Equithon Committee Exec Application</div>
+                        <div class="freebirdFormviewerViewHeaderTitle exportFormTitle freebirdCustomFont" dir="auto" role="heading" aria-level="1">Cafe7 & Resturant</div>
                     </div>
-                    <div class="freebirdFormviewerViewHeaderDescription" dir="auto">Looking to help us organize ambiensis 2019? You're in the right place.</div>
+                    <div class="freebirdFormviewerViewHeaderDescription" dir="auto">Cafe7 Coffe Paradise.</div>
                     <div jsname="F0H8Yc" class="freebirdCommonViewSecurequizSecureQuizBannerContainer"></div>
                     <div class="freebirdFormviewerViewHeaderRequiredLegend" aria-hidden="true" dir="auto">* Required</div>
                 </div>
@@ -69,7 +69,8 @@ class ExecAppForm extends React.Component {
                                 <div class="quantumWizTextinputPaperinputContentArea exportContentArea">
                                     <div class="quantumWizTextinputPaperinputInputArea">
                                         <input type="text" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Hey! What&amp;#39;s your full name?" aria-describedby="i.desc.956369068 i.err.956369068" name="entry.625469338" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="" />
-                                        <div jsname="LwH6nd" class="quantumWizTextinputPaperinputPlaceholder exportLabel">Your answer</div>
+                      
+                                      <div jsname="LwH6nd" class="quantumWizTextinputPaperinputPlaceholder exportLabel">Your answer</div>
                                     </div>
                                     <div class="quantumWizTextinputPaperinputUnderline exportUnderline"></div>
                                     <div jsname="XmnwAc" class="quantumWizTextinputPaperinputFocusUnderline exportFocusUnderline"></div>

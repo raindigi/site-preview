@@ -448,7 +448,7 @@ class IndexPage extends React.Component {
             Cafe7 Resturant
           </Title>
 
-          <Logo src='/logo.png' visible={this.state.restVisible}/>
+          <Logo src='https://www.freepngimg.com/thumb/coffee/32668-1-coffee-logo-transparent-image-thumb.png' visible={this.state.restVisible}/>
 
           <ActionContainer visible={this.state.restVisible}>
             <ActionHeader>Be a part of the <WordShadow shadowVisible={this.state.shadowVisible}>change</WordShadow>.</ActionHeader>

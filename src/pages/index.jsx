@@ -219,7 +219,7 @@ const ActionInputOverlay = styled.div`
   white-space: nowrap;
   transition: transform 500ms;
   width: ${props => props.width};
-  height: 3vw;
+  height: 5vw;
   position: absolute;
   top: 0;
   left: 5%;

@@ -425,7 +425,7 @@ class IndexPage extends React.Component {
           <script src="https://www.google.com/recaptcha/api.js" async defer></script>
           <meta
             name="description"
-            content="Ambiensis is Educational Consultancy and IT Solution Provider"
+            content="Cafe7 cafe Resturant"
           />
           <meta
             name="google-site-verification"
@@ -433,7 +433,7 @@ class IndexPage extends React.Component {
           />
           <meta
             name="keywords"
-            content="ambiensis,couselling, study, career, collage,engineering, medical, professional, course, university, 2019, tech, good"
+            content="Cafe7 , cafe,  Resturant, expresso, latte"
           />
           <link
             rel="icon"
@@ -464,7 +464,7 @@ class IndexPage extends React.Component {
                 <ActionInputOverlay show={!this.state.inputFocused} color="#895fd2" width="90%">
                   { !this.state.curInput ? (isMobile ? "Sign Up For Updates" : "Keep Me Posted") : null }
                 </ActionInputOverlay>
-                <ActionInputOverlay show={this.state.inputFocused} color="rgba(142, 142, 142, 0.3)" width="90%">
+                <ActionInputOverlay show={this.state.inputFocused} color="rgba(142, 142, 142, 0.3)" width="100%">
                   { !this.state.curInput ? "Your Email" : null }
                 </ActionInputOverlay>
                 <form name="mailing-list" id="mailingListForm" onSubmit={(e) => this.handleSubmit(e)} acceptCharset="UTF-8" action="https://usebasin.com/f/5144d514a21b" method="POST" target="_blank">
@@ -482,26 +482,26 @@ class IndexPage extends React.Component {
 
             <div style={{gridArea: 'sponsor-contact', fontSize: '2.5vmin'}}>
               { isMobile ? null : <span>Interested in <b>sponsoring</b>? <br/> Exciting! Drop us an email anytime.</span> }
-              <ActionButton onClick={() => window.open('mailto:ambiensisedu@gmail.com', '_self')}>
+              <ActionButton onClick={() => window.open('mailto:pridevihar@gmail.com', '_self')}>
                 { isMobile ? "Looking to Sponsor?" : "Connect With Us" }
               </ActionButton>
             </div>
           </ActionContainer>
 
           <SocialContainer visible={this.state.restVisible}>
-            <a href='https://www.facebook.com/ambiensis/' target='_blank'>
+            <a href='https://www.facebook.com/cafe7/' target='_blank'>
               <img src='/social_fb.png' />
             </a>
-            <a href='https://www.instagram.com/ambiensis' target='_blank'>
+            <a href='https://www.instagram.com/cafe7' target='_blank'>
               <img src='/social_insta.png' />
             </a>
-            <a href='mailto:ambiensisedu@gmail.com'>
+            <a href='mailto:pridevihar@gmail.com'>
               <img src='/social_email.png' />
             </a>
           </SocialContainer>
 
           <Copyright visible={this.state.restVisible}>
-            © Ambiensis Pvt Ltd 2019.
+            © Pride Vihar Snacks Pvt Ltd 2019.
           </Copyright>
 
         </Container>

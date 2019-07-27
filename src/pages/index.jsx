@@ -170,7 +170,7 @@ const ActionButton = styled.div`
 
 const ActionInput = styled.div`
   margin-top: 1.5em;
-  height: 3vw;
+  height: 10vw;
   border-radius: 20px;
   cursor: pointer;
   background-color: #fff;
@@ -219,7 +219,7 @@ const ActionInputOverlay = styled.div`
   white-space: nowrap;
   transition: transform 500ms;
   width: ${props => props.width};
-  height: 5vw;
+  height: 8vw;
   position: absolute;
   top: 0;
   left: 5%;
@@ -272,7 +272,7 @@ const ClickButtonImg = styled.img`
 
 const ActionInputBox = styled.input`
   width: 70%;
-  height: 3vw;
+  height: 10vw;
   background: transparent;
   border: none;
   position: absolute;

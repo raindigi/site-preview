@@ -421,7 +421,7 @@ class IndexPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Ambiensis</title>
+          <title>Cafe7 & Resturant</title>
           <script src="https://www.google.com/recaptcha/api.js" async defer></script>
           <meta
             name="description"
@@ -445,7 +445,7 @@ class IndexPage extends React.Component {
         <LavaLampBg />
         <Container>
           <Title visible={this.state.mainVisible} subVisible={this.state.subVisible}>
-            Ambiensis
+            Cafe7 Resturant
           </Title>
 
           <Logo src='/logo.png' visible={this.state.restVisible}/>
@@ -461,7 +461,7 @@ class IndexPage extends React.Component {
                 lastSubmitted={this.state.lastInputValid}
                 onAnimationEnd={() => this.setState({ lastInputShake: false })}
                 className={this.state.lastInputShake ? 'shake' : null}>
-                <ActionInputOverlay show={!this.state.inputFocused} color="#895fd2" width="90%">
+                <ActionInputOverlay show={!this.state.inputFocused} color="#895fd2" width="100%">
                   { !this.state.curInput ? (isMobile ? "Sign Up For Updates" : "Keep Me Posted") : null }
                 </ActionInputOverlay>
                 <ActionInputOverlay show={this.state.inputFocused} color="rgba(142, 142, 142, 0.3)" width="100%">

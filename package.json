@@ -9,7 +9,7 @@
     "deploy": "firebase deploy"
   },
   "dependencies": {
-    "gatsby": "^1.9.277",
+    "gatsby": "^2.13.79",
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-react-helmet": "^3.0.0",

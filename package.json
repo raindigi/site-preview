@@ -9,7 +9,7 @@
     "deploy": "firebase deploy"
   },
   "dependencies": {
-    "gatsby": "^1.9.277",
+    "gatsby": "^2.1.1",
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-react-helmet": "^3.0.0",
@@ -22,7 +22,7 @@
     "react-mt-svg-lines": "^0.8.5",
     "react-particles-js": "^2.3.0",
     "react-window-size": "^1.2.2",
-    "styled-components": "^3.4.5",
+    "styled-components": "^4.0.0",
     "whatwg-fetch": "^2.0.4"
   }
 }
